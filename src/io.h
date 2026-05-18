@@ -4,8 +4,8 @@
 
 namespace io { 
     
-cv::Mat load_image(const std::string& path);
-bool    save_image(const std::string& path, const cv::Mat& image);
+cv::Mat loadImage(const std::string& path);
+bool    saveImage(const std::string& path, const cv::Mat& image);
 std::string promptLine(const std::string& message);
 
     
